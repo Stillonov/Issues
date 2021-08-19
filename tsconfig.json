@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
     "strict": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "lib": [
+      "esnext"
+    ]
   }
 }
