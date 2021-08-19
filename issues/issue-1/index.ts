@@ -3,15 +3,15 @@
 */
 
 export const isPalindrome = (inputString?: string): boolean => {
-  if (typeof inputString !== 'string') {
-    return false;
-  }
+    if (typeof inputString !== 'string') {
+        return false;
+    }
 
-  const trimmedString = inputString.trim();
+    const trimmedString = inputString.trim();
 
-  if (!trimmedString) {
-    return false;
-  }
+    if (!trimmedString) {
+        return false;
+    }
 
-  return trimmedString === trimmedString.split('').reverse().join('');
+    return trimmedString === trimmedString.split('').reverse().join('');
 };
